@@ -1,68 +1,68 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Nasa APOD
 
-## Available Scripts
+Este projeto foi criado para consumir a API [NASA](https://api.nasa.gov/).
+Nesta aplicação você pode consultar as imagens selecionadas como imagem da astronomia do dia pela equipe da NASA.
 
-In the project directory, you can run:
+## Demostração
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Principais Tecnologias usadas.
 
-### `yarn test`
+- [ReactJS](https://pt-br.reactjs.org/)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> Uma biblioteca JavaScript para criar interfaces de usuário.
 
-### `yarn build`
+- [React Router](https://reactrouter.com/)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> React Router is a collection of navigational components that compose declaratively with your application.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- [Axios](https://github.com/axios/axios)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> Promise based HTTP client for the browser and node.js
 
-### `yarn eject`
+- [Material-UI](https://material-ui.com/pt/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+> Biblioteca de componentes React para um desenvolvimento ágil e fácil. Construa seu próprio design, ou comece com Material Design.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Redux](https://redux.js.org/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+> A Predictable State Container for JS Apps.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- [Redux Persist](https://github.com/rt2zz/redux-persist)
 
-## Learn More
+> Persist and rehydrate a redux store.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Moment js](https://momentjs.com/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> Moment was designed to work both in the browser and in Node.js.
 
-### Code Splitting
+- [Styled Components](https://styled-components.com/)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+> Visual primitives for the component age.
 
-### Analyzing the Bundle Size
+### Configuração do ambiente de desenvolvimento
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- [Instale NodeJS](https://nodejs.org/en/) em seu computador.
 
-### Making a Progressive Web App
+- [Instale yarn](https://yarnpkg.com/en/docs/install) em seu computador.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+  > O Yarn é um gerenciador de pacotes que também funciona como gerente de projetos. Quer você trabalhe em projetos únicos ou em grandes monorepos, como um hobby ou um usuário corporativo, temos tudo a ver.
 
-### Advanced Configuration
+- Rode o comando `yarn` no seu terminal, dentro do diretório do projeto.
+  > Este comando vai procurar as dependências no arquivo _package.json_ e instalar os pacotes listados.
+  
+- Rode o comando `yarn start` no seu terminal, dentro do diretório do projeto.
+  > Este comando vai iniciar a sua aplicação no modo de desenvolvimento, você pode acessar ela no navegador através do endereço: http://localhost:3000/
+  
+## Rodando o projeto
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+- Clone this project
 
-### Deployment
+```
+git clone https://github.com/zecampos/pokedex.git
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+### Configuração do ambiente de produção
 
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Para fazer o build no ambiente de produção, siga a [Documentação](https://create-react-app.dev/docs/deployment/)
