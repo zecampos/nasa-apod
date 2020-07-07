@@ -5,6 +5,7 @@ Nesta aplicação você pode consultar as imagens selecionadas como imagem da as
 
 ## Demostração
 
+https://nasa-apod-2020.herokuapp.com/
 
 
 ## Principais Tecnologias usadas.
@@ -60,7 +61,7 @@ Nesta aplicação você pode consultar as imagens selecionadas como imagem da as
 - Clone this project
 
 ```
-git clone https://github.com/zecampos/pokedex.git
+git clone https://github.com/zecampos/nasa-apod.git
 ```
 
 ### Configuração do ambiente de produção
